@@ -6,5 +6,12 @@ class Dog
  def name
    puts @name 
  end
- end
+ 
+ 
+ def breed=(dog_type)
+   @dog_type = dog_type
+ end 
+ 
+ 
+ 
  
